@@ -10,7 +10,8 @@ public class main {
         
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Macho-1 \nFemea-2");
+        System.out.println("Homem-1 \n"
+                + "Mulher-2");
         
         try {
             escolha = teclado.nextInt();
